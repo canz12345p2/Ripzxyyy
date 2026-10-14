@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "ripki-1",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
@@ -41,11 +41,12 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "ip": "100.125.8.11",
       "status": "ok",
-      "magicdns": "ripki-1.tail39308e.ts.net.",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "hostname": "Ripki-1"
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     }
   },
   "media": {
@@ -96,5 +97,6 @@
     "errors": [],
     "public_port": false
   },
-  "heartbeat_at": "2026-10-14T15:53:25.9126658Z"
+  "heartbeat_at": "2026-10-14T15:53:25.9126658Z",
+  "stopped_at": "2026-10-14T15:58:11Z"
 }
